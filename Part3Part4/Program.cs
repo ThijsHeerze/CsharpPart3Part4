@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Login();
+            //exercise 3-24
+
+            //Login();
+            LastPartSplit();
 
             static void Login()
             {
@@ -25,6 +28,16 @@
                 {
                     Console.WriteLine("Incorrect username or password!");
                 }
+            }
+
+            //exercise 3-28
+            static void LastPartSplit()
+            {
+                Console.WriteLine("Give a input");
+                string input1 = (Console.ReadLine());
+
+                string awnser = input1.Split(' ').LastOrDefault();
+                Console.WriteLine(awnser);
             }
         }
     }
