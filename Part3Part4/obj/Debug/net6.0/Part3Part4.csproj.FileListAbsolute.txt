@@ -1,0 +1,15 @@
+C:\Users\thijs\Downloads\Documenten\Roc\C#\Part3Part4\Part3Part4\obj\Debug\net6.0\Part3Part4.csproj.AssemblyReference.cache
+C:\Users\thijs\Downloads\Documenten\Roc\C#\Part3Part4\Part3Part4\obj\Debug\net6.0\Part3Part4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thijs\Downloads\Documenten\Roc\C#\Part3Part4\Part3Part4\obj\Debug\net6.0\Part3Part4.AssemblyInfoInputs.cache
+C:\Users\thijs\Downloads\Documenten\Roc\C#\Part3Part4\Part3Part4\obj\Debug\net6.0\Part3Part4.AssemblyInfo.cs
+C:\Users\thijs\Downloads\Documenten\Roc\C#\Part3Part4\Part3Part4\obj\Debug\net6.0\Part3Part4.csproj.CoreCompileInputs.cache
+C:\Users\thijs\Downloads\Documenten\Roc\C#\Part3Part4\Part3Part4\bin\Debug\net6.0\Part3Part4.exe
+C:\Users\thijs\Downloads\Documenten\Roc\C#\Part3Part4\Part3Part4\bin\Debug\net6.0\Part3Part4.deps.json
+C:\Users\thijs\Downloads\Documenten\Roc\C#\Part3Part4\Part3Part4\bin\Debug\net6.0\Part3Part4.runtimeconfig.json
+C:\Users\thijs\Downloads\Documenten\Roc\C#\Part3Part4\Part3Part4\bin\Debug\net6.0\Part3Part4.dll
+C:\Users\thijs\Downloads\Documenten\Roc\C#\Part3Part4\Part3Part4\bin\Debug\net6.0\Part3Part4.pdb
+C:\Users\thijs\Downloads\Documenten\Roc\C#\Part3Part4\Part3Part4\obj\Debug\net6.0\Part3Part4.dll
+C:\Users\thijs\Downloads\Documenten\Roc\C#\Part3Part4\Part3Part4\obj\Debug\net6.0\refint\Part3Part4.dll
+C:\Users\thijs\Downloads\Documenten\Roc\C#\Part3Part4\Part3Part4\obj\Debug\net6.0\Part3Part4.pdb
+C:\Users\thijs\Downloads\Documenten\Roc\C#\Part3Part4\Part3Part4\obj\Debug\net6.0\Part3Part4.genruntimeconfig.cache
+C:\Users\thijs\Downloads\Documenten\Roc\C#\Part3Part4\Part3Part4\obj\Debug\net6.0\ref\Part3Part4.dll
