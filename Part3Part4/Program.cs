@@ -8,7 +8,8 @@
 
             //Login();
             //LastPartSplit();
-            CSVAge();
+            //CSVAge();
+            CSVName();
 
             static void Login()
             {
@@ -25,7 +26,8 @@
                 if (username == input1 && password == input2 || username2 == input1 && password2 == input2)
                 {
                     Console.WriteLine("You have successfully logged in!");
-                } else
+                }
+                else
                 {
                     Console.WriteLine("Incorrect username or password!");
                 }
@@ -46,22 +48,46 @@
             {
                 string input;
                 int maxAge = 0;
-                
+
                 Console.WriteLine("Enter your name and age");
 
                 while ((input = Console.ReadLine()) != "")
                 {
-                    
+
                     string[] parts = input.Split(',');
                     string name = parts[0].Trim();
-                    
+
                     int age = int.Parse(parts[1]);
                     if (age > maxAge)
                     {
                         maxAge = age;
                     }
                 }
-                Console.WriteLine($"The oldest person is {maxAge} years old.");
+                Console.WriteLine($"Age of the oldest: {maxAge}.");
+            }
+
+            static void CSVName()
+            {
+                string input;
+                int maxAge = 0;
+                string maxAgeName = "";
+
+                Console.WriteLine("Enter your name and age");
+
+                while ((input = Console.ReadLine()) != "")
+                {
+
+                    string[] parts = input.Split(',');
+                    string name = parts[0].Trim();
+
+                    int age = int.Parse(parts[1]);
+                    if (age > maxAge)
+                    {
+                        maxAge = age;
+                        maxAgeName = name;
+                    }
+                }
+                Console.WriteLine($"The name of the oldest: {maxAgeName}.");
             }
         }
     }
