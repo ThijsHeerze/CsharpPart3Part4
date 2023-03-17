@@ -62,17 +62,6 @@
                     }
                 }
                 Console.WriteLine($"The oldest person is {maxAge} years old.");
-                /*Console.WriteLine("Enter your name");
-                string name = Console.ReadLine();
-                Console.WriteLine("Enter your age");
-                int age = int.Parse(Console.ReadLine());
-
-                Console.WriteLine("Enter your name");
-                string name2 = Console.ReadLine();
-                Console.WriteLine("Enter your age");
-                int age2 = int.Parse(Console.ReadLine());
-
-                Console.WriteLine("Age of the oldest: " int.Max());*/
             }
         }
     }
