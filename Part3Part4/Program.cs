@@ -7,7 +7,8 @@
             //exercise 3-24
 
             //Login();
-            LastPartSplit();
+            //LastPartSplit();
+            CSVAge();
 
             static void Login()
             {
@@ -38,6 +39,40 @@
 
                 string awnser = input1.Split(' ').LastOrDefault();
                 Console.WriteLine(awnser);
+            }
+
+            //exercise 3-29
+            static void CSVAge()
+            {
+                string input;
+                int maxAge = 0;
+                
+                Console.WriteLine("Enter your name and age");
+
+                while ((input = Console.ReadLine()) != "")
+                {
+                    
+                    string[] parts = input.Split(',');
+                    string name = parts[0].Trim();
+                    
+                    int age = int.Parse(parts[1]);
+                    if (age > maxAge)
+                    {
+                        maxAge = age;
+                    }
+                }
+                Console.WriteLine($"The oldest person is {maxAge} years old.");
+                /*Console.WriteLine("Enter your name");
+                string name = Console.ReadLine();
+                Console.WriteLine("Enter your age");
+                int age = int.Parse(Console.ReadLine());
+
+                Console.WriteLine("Enter your name");
+                string name2 = Console.ReadLine();
+                Console.WriteLine("Enter your age");
+                int age2 = int.Parse(Console.ReadLine());
+
+                Console.WriteLine("Age of the oldest: " int.Max());*/
             }
         }
     }
