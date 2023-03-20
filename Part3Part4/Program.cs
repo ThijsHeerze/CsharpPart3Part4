@@ -1,14 +1,20 @@
-﻿using System;
+﻿using Microsoft.VisualBasic;
+using System;
+using System.Reflection;
 
-namespace exercise_96;
-
-public class Room
+public class Book
 {
-    private string code;
-    private string seats;
-    public Room(string classCode, int numberOfSeats)
+    public void Main(string[] args)
     {
-        code = classCode;
-        seats = numberOfSeats;
+        while (true) { 
+            Console.WriteLine("Name:");
+            string name = Console.ReadLine();
+            Console.WriteLine("Pages:");
+            int page = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Publication year:");
+            int publicationYear = Convert.ToInt32(Console.ReadLine());
+                
+            Console.WriteLine("What information will be printed?");
+        }    
     }
 }
