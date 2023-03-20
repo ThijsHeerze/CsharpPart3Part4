@@ -1,10 +1,14 @@
 ﻿using System;
 
-namespace exercise_95;
+namespace exercise_96;
 
-public class Dog
+public class Room
 {
-    private string name;
-    private string breed;
-    private int age;
+    private string code;
+    private string seats;
+    public Room(string classCode, int numberOfSeats)
+    {
+        code = classCode;
+        seats = numberOfSeats;
+    }
 }
