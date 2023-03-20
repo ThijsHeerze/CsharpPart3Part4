@@ -1,24 +1,22 @@
-﻿using Microsoft.VisualBasic;
-using System;
-using System.Reflection;
+﻿using System;
 
-
-class MainClass
+class ReadingInt
 {
-    public static void Main(string[] args)
+    static void Main(string[] args)
     {
-        int count = 0;
         string input = "";
 
         while (input != "end")
         {
+            Console.WriteLine("Geef een nummer of typ 'end' om te stoppen");
             input = Console.ReadLine();
+
             if (input != "end")
             {
-                count++;
+                int num = int.Parse(input);
+                int uitkomst = num * num * num;
+                Console.WriteLine($"de uitkomst is {uitkomst}");
             }
         }
-
-        Console.WriteLine(count);
     }
 }
