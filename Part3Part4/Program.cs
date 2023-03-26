@@ -1,22 +1,45 @@
 ﻿using System;
 
-class ReadingInt
+class GuestlistTxt
 {
-    static void Main(string[] args)
+    void Main(string[] args)
     {
-        string input = "";
+            string[] names = File.ReadAllLines("C:\\Users\\thijs\\OneDrive\\Documenten\\Roc\\C#\\Part3Part4\\.vs\\Part3Part4\\guestlist.txt");
 
-        while (input != "end")
-        {
-            Console.WriteLine("Geef een nummer of typ 'end' om te stoppen");
-            input = Console.ReadLine();
+            Console.WriteLine("Enter names, an empty line quits.");
 
-            if (input != "end")
+            while (true)
             {
-                int num = int.Parse(input);
-                int uitkomst = num * num * num;
-                Console.WriteLine($"de uitkomst is {uitkomst}");
+                Console.Write("> ");
+                string name = Console.ReadLine().Trim();
+
+                if (name == "")
+                    if (name == "")
+                    {
+                        break;
+                    }
+
+                bool onList = false;
+
+                foreach (string guestName in names)
+                {
+                    if (guestName.ToLower() == name.ToLower())
+                    {
+                        onList = true;
+                        break;
+                    }
+                }
+
+                if (onList)
+                {
+                    Console.WriteLine("The name is on the list.");
+                }
+                else
+                {
+                    Console.WriteLine("The name is not on the list.");
+                }
             }
+
+            Console.WriteLine("\nThank you!");
         }
-    }
 }
